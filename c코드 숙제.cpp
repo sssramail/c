@@ -32,12 +32,11 @@ int main()
 			printf("가장 작은 수:%d\n",s);
 			printf("가장 큰 수:%d\n",b);
 			printf("총합:%d\n",p);
-			w = p/r;
+			w = 1.0*p/r;
 			printf("평균:%.1lf",w);
 			break;
 		}
 	}
-	
 	
 	return 0;
 }
